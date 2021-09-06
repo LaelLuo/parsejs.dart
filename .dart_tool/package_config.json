@@ -1,0 +1,32 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "lists",
+      "rootUri": "file:///C:/Users/LaelLuo/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/lists-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///C:/Users/LaelLuo/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/meta-1.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "unicode",
+      "rootUri": "file:///C:/Users/LaelLuo/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/unicode-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "parsejs",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    }
+  ],
+  "generated": "2021-09-06T13:32:56.970389Z",
+  "generator": "pub",
+  "generatorVersion": "2.13.4"
+}

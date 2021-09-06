@@ -202,8 +202,8 @@ class ExpressionStatement extends Statement {
   String toString() => 'ExpressionStatement';
 
   visitBy<T>(Visitor<T> v) => v.visitExpressionStatement(this);
-  visitBy1<T, A>(Visitor1<T, A> v, A arg) => v.visitExpressionStatement(
-      this, arg);
+  visitBy1<T, A>(Visitor1<T, A> v, A arg) =>
+      v.visitExpressionStatement(this, arg);
 }
 
 /// Statement of form: `if ([condition]) then [then] else [otherwise]`.
@@ -491,8 +491,8 @@ class FunctionDeclaration extends Statement {
   String toString() => 'FunctionDeclaration';
 
   visitBy<T>(Visitor<T> v) => v.visitFunctionDeclaration(this);
-  visitBy1<T, A>(Visitor1<T, A> v, A arg) => v.visitFunctionDeclaration(
-      this, arg);
+  visitBy1<T, A>(Visitor1<T, A> v, A arg) =>
+      v.visitFunctionDeclaration(this, arg);
 }
 
 /// Statement of form: `var [declarations];`
@@ -506,8 +506,8 @@ class VariableDeclaration extends Statement {
   String toString() => 'VariableDeclaration';
 
   visitBy<T>(Visitor<T> v) => v.visitVariableDeclaration(this);
-  visitBy1<T, A>(Visitor1<T, A> v, A arg) => v.visitVariableDeclaration(
-      this, arg);
+  visitBy1<T, A>(Visitor1<T, A> v, A arg) =>
+      v.visitVariableDeclaration(this, arg);
 }
 
 /// Variable declaration: `[name]` or `[name] = [init]`.
@@ -525,8 +525,8 @@ class VariableDeclarator extends Node {
   String toString() => 'VariableDeclarator';
 
   visitBy<T>(Visitor<T> v) => v.visitVariableDeclarator(this);
-  visitBy1<T, A>(Visitor1<T, A> v, A arg) => v.visitVariableDeclarator(
-      this, arg);
+  visitBy1<T, A>(Visitor1<T, A> v, A arg) =>
+      v.visitVariableDeclarator(this, arg);
 }
 
 /// Statement of form: `debugger;`
@@ -643,8 +643,8 @@ class FunctionExpression extends Expression {
   String toString() => 'FunctionExpression';
 
   visitBy<T>(Visitor<T> v) => v.visitFunctionExpression(this);
-  visitBy1<T, A>(Visitor1<T, A> v, A arg) => v.visitFunctionExpression(
-      this, arg);
+  visitBy1<T, A>(Visitor1<T, A> v, A arg) =>
+      v.visitFunctionExpression(this, arg);
 }
 
 /// Comma-seperated expressions.

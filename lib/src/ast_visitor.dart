@@ -125,8 +125,9 @@ class BaseVisitor<T> implements Visitor<T> {
 /// Without the call to `forEach`, a while loop nested in another while loop would
 /// not be found.
 class RecursiveVisitor<T> extends BaseVisitor<T> {
-  defaultNode(Node node) {
+  T defaultNode(Node node) {
     node.forEach(visit);
+    return null;
   }
 }
 
